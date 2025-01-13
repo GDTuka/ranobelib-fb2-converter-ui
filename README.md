@@ -1,16 +1,14 @@
 # ranobelib_parser_ui
 
-A new Flutter project.
+Это парсер для ranobelib который может перевести ранобэ в формат fb2
 
-## Getting Started
+Для работы необходимо указать адрес нужного вам ранобэ
+выбрать имя для сохраняемого файла а также его директорию
+формат ссылки должен быть https://ranobelib.me/ru/24263--about-the-reckless-girl-who-kept-challenging-a-reborn-man-like-me
+Тоесть ссылка без дополнительных query запросов и прочего.
 
-This project is a starting point for a Flutter application.
+В результате работы программы вы получите fb2 файл.
 
-A few resources to get you started if this is your first Flutter project:
+На данный момент не работает медиа, только текст, над этим будут вестись работы
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ссылка на го апи который парсит сайт https://github.com/GDTuka/ranobelib-fb2-converter
