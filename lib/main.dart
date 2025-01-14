@@ -4,7 +4,6 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_assets/flutter_assets.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:process_run/cmd_run.dart';
 
